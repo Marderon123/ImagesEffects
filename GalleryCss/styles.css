@@ -1,26 +1,35 @@
 body {
-    background-color: #28282B;
-  
+  background-color: #28282b;
 }
 
 section {
   display: flex;
   width: 100%;
-  height: 430px;
-  align-items: center;
 }
 
 section img {
   width: 0px;
+  height: 650px;
   flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
-  transition: 0.5s ease;
+  transition: 0.8s ease;
+  border-radius: 80px;
 }
 
 section img:hover {
   cursor: crosshair;
-  width: 300px;
+  width: 200px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 100vw;
+  }
+  section img:nth-of-type(4),
+  section img:nth-of-type(5) {
+    display: none;
+  }
 }

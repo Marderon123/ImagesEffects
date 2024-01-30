@@ -23,7 +23,7 @@ body {
 /* Con cover cubres todo el panel con el tamaño que tiene, con "container" creas como pequeños cubos que se amplian al tamaño establecido */
 
 .panel {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
