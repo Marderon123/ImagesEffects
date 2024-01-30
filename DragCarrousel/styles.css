@@ -1,0 +1,16 @@
+body{
+    background: #28282b;
+    margin: 0;
+    height: 108vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper .swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 370px;
+    height: 560px;
+    border-radius: 80px;
+}
